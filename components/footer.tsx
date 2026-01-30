@@ -2,8 +2,13 @@
 
 import Link from 'next/link';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import DeveloperCredit from "./DeveloperCredit";
+
+
 
 export function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-card border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -93,8 +98,9 @@ export function Footer() {
         {/* Bottom Border and Copyright */}
         <div className="border-t border-border pt-8">
           <p className="text-center text-muted-foreground text-sm">
-            &copy; 2024 SmartJ2K Interiors. All rights reserved.
+            &copy; {currentYear} SmartJ2K Interiors. All rights reserved.
           </p>
+          <DeveloperCredit />
         </div>
       </div>
     </footer>
