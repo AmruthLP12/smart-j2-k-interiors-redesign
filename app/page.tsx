@@ -2,6 +2,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import Link from 'next/link';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Home() {
   const services = [
@@ -48,25 +49,28 @@ export default function Home() {
       id: 1,
       title: 'Modern Urban Residence',
       category: 'Residential',
-      image: '/logo.png',
+      image: '/images/gallery/Gallery3.jpg',
     },
     {
       id: 2,
       title: 'Corporate Office Design',
       category: 'Commercial',
-      image: '/logo.png',
+      image: '/images/gallery/Gallery4.jpg',
+
     },
     {
       id: 3,
       title: 'Luxury Hotel Suite',
       category: 'Hospitality',
-      image: '/logo.png',
+      image: '/images/gallery/Gallery5.jpg',
+
     },
     {
       id: 4,
       title: 'Medical Center Redesign',
       category: 'Healthcare',
-      image: '/logo.png',
+      image: '/images/gallery/Gallery6.jpg',
+
     },
   ];
 
@@ -106,7 +110,7 @@ export default function Home() {
               </div>
               <div className="flex justify-center md:justify-end">
                 <div className="w-full max-w-md h-96 bg-linear-to-br from-primary/20 to-primary/5 rounded-2xl border border-primary/20 flex items-center justify-center overflow-hidden">
-                  <img src="/logo.png" alt="SmartJ2K Interiors" className="w-2/3 h-auto opacity-80" />
+                  <Image width={40} height={40} src="/images/gallery/Gallery2.jpg" alt="SmartJ2K Interiors" className="w-full h-full opacity-80" />
                 </div>
               </div>
             </div>
@@ -127,7 +131,7 @@ export default function Home() {
                   className="bg-background rounded-xl overflow-hidden border border-border hover:border-primary transition group cursor-pointer"
                 >
                   <div className="h-64 bg-linear-to-br from-primary/30 to-primary/10 flex items-center justify-center group-hover:from-primary/40 group-hover:to-primary/20 transition">
-                    <img src={project.image || "/placeholder.svg"} alt={project.title} className="w-3/4 h-auto opacity-60" />
+                    <Image height={40} width={40} src={project.image || "/placeholder.svg"} alt={project.title} className="w-full h-full opacity-70 " />
                   </div>
                   <div className="p-6">
                     <p className="text-sm text-primary font-medium mb-2">{project.category}</p>

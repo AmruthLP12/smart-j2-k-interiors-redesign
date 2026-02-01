@@ -36,12 +36,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" >
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="apple-mobile-web-app-title" content="j2k" />
+        </head>
       <body className={`font-sans antialiased`}>
         {children}
         <FloatingContact />
         <Analytics />
       </body>
+      
     </html>
   );
 }

@@ -81,11 +81,11 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Phone className="text-primary mt-1" size={16} />
-                <span className="text-muted-foreground text-sm">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground text-sm">+91 9845539527 | +91 9989693289</span>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="text-primary mt-1" size={16} />
-                <span className="text-muted-foreground text-sm">info@smartj2k.com</span>
+                <span className="text-muted-foreground text-sm">SmartJ2Kinteriors@gmail.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="text-primary mt-1" size={16} />

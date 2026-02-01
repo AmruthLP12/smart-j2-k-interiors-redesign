@@ -59,7 +59,8 @@ export default function ContactPage() {
                   <h3 className="text-xl font-bold text-foreground">Phone</h3>
                 </div>
                 <p className="text-muted-foreground mb-2">Call us during business hours</p>
-                <p className="text-lg text-primary font-semibold">+1 (555) 123-4567</p>
+                <p className="text-lg text-primary font-semibold">+91 9845539527</p>
+                <p className="text-lg text-primary font-semibold">+91 9989693289</p>
               </div>
 
               <div className="bg-card border border-border rounded-xl p-8">
@@ -70,7 +71,7 @@ export default function ContactPage() {
                   <h3 className="text-xl font-bold text-foreground">Email</h3>
                 </div>
                 <p className="text-muted-foreground mb-2">We'll respond within 24 hours</p>
-                <p className="text-lg text-primary font-semibold">info@smartj2k.com</p>
+                <p className="text-lg text-primary font-semibold">SmartJ2Kinteriors@gmail.com</p>
               </div>
 
               <div className="bg-card border border-border rounded-xl p-8">
@@ -81,7 +82,7 @@ export default function ContactPage() {
                   <h3 className="text-xl font-bold text-foreground">Location</h3>
                 </div>
                 <p className="text-muted-foreground mb-2">Visit our office</p>
-                <p className="text-lg text-primary font-semibold">New Delhi, India</p>
+                <p className="text-lg text-primary font-semibold">Ground Floor, Gopallapa Complex, Ajjagondahalli Road,Valepura, Beside ISKCON Whitefield, Bangalore - 560087</p>
               </div>
             </div>
 
@@ -199,17 +200,33 @@ export default function ContactPage() {
 
         {/* Map Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Find Us</h2>
-            <div className="bg-linear-to-br from-primary/20 to-primary/5 border border-primary/20 rounded-xl h-96 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="text-primary mx-auto mb-4" size={48} />
-                <p className="text-lg text-muted-foreground">SmartJ2K Interiors</p>
-                <p className="text-muted-foreground">New Delhi, India</p>
-              </div>
-            </div>
-          </div>
-        </section>
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+      Find Us
+    </h2>
+
+    <div className="bg-linear-to-br from-primary/20 to-primary/5 border border-primary/20 rounded-xl overflow-hidden h-96">
+      <iframe
+        title="SmartJ2K Interiors Location"
+        src="https://www.google.com/maps?q=Ground%20Floor,%20Gopallapa%20Complex,%20Ajjagondahalli%20Road,%20Valepura,%20Beside%20ISKCON%20Whitefield,%20Bangalore%20560087&output=embed"
+        className="w-full h-full border-0"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </div>
+
+    <div className="text-center mt-4">
+      <p className="text-lg text-muted-foreground font-medium">
+        SmartJ2K Interiors
+      </p>
+      <p className="text-muted-foreground">
+        Ground Floor, Gopallapa Complex, Ajjagondahalli Road, Valepura, Beside
+        ISKCON Whitefield, Bangalore - 560087
+      </p>
+    </div>
+  </div>
+</section>
+
       </main>
       <Footer />
     </>

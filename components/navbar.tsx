@@ -52,9 +52,6 @@ export function Navbar() {
             <Link href="/gallery" className="text-foreground hover:text-primary transition">
               Gallery
             </Link>
-            <Link href="/blog" className="text-foreground hover:text-primary transition">
-              Blog
-            </Link>
             <Link href="/faqs" className="text-foreground hover:text-primary transition">
               FAQs
             </Link>
