@@ -5,45 +5,45 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Commercial Interior Design | SmartJ2K Interiors',
-  description: 'Professional commercial interior design services that enhance productivity and reflect your brand identity.',
+  title: 'Construction Services | SmartJ2K Interiors',
+  description: 'Professional construction services with precision, quality, and excellence. Best construction company in Bangalore.',
 };
 
-export default function CommercialPage() {
+export default function ConstructionPage() {
   const expertise = [
-    'Corporate Offices',
-    'Co-Working Spaces',
-    'Retail Stores & Showrooms',
-    'Banking & Financial Institutions',
-    'Educational & Training Centers',
-    'Hospitality & Leisure Venues',
+    'Residential Buildings',
+    'Commercial Complexes',
+    'Industrial Facilities',
+    'Institutional Buildings',
+    'Infrastructure Projects',
+    'Renovations & Extensions',
   ];
 
   const features = [
-    'Collaborative work zones',
-    'Sleek conference rooms',
-    'Inviting client lounges',
-    'Technology-enabled spaces',
-    'Sustainable design solutions',
-    'Brand identity integration',
+    'Solid foundations and structure',
+    'Quality MEP (Mechanical, Electrical, Plumbing)',
+    'Flawless finishing work',
+    'Safety and compliance management',
+    'Project timeline adherence',
+    'Quality control at every stage',
   ];
 
   const faqs = [
     {
-      question: 'How long will a commercial interiors project take?',
-      answer: 'Timelines depend on the project\'s scale and complexity. Typically, office fit-outs or retail spaces take 60 to 90 days from design approval to completion. We provide a detailed schedule before starting.',
+      question: 'What construction services do you provide?',
+      answer: 'We cover end-to-end construction including foundation work, structural framing, finishing, MEP (Mechanical, Electrical, Plumbing), and landscaping.',
     },
     {
-      question: 'Can I customize furniture and layouts?',
-      answer: 'Absolutely. We offer tailored solutions, from bespoke furniture to modular workstations, all aligned with your preferences.',
+      question: 'How do you ensure project timelines?',
+      answer: 'Through careful planning, resource management, and regular progress monitoring, we keep projects on track.',
     },
     {
-      question: 'Do you manage permits and compliance?',
-      answer: 'Yes, we handle necessary regulatory approvals and ensure your space complies with safety and building codes.',
+      question: 'Can I visit the site during construction?',
+      answer: 'Yes, client visits are encouraged and coordinated for safety.',
     },
     {
-      question: 'Will I get 3D visualizations?',
-      answer: 'Yes, detailed 3D renders are provided for approval before execution.',
+      question: 'What safety measures do you follow?',
+      answer: 'We strictly adhere to all safety regulations and conduct regular site audits.',
     },
   ];
 
@@ -55,11 +55,11 @@ export default function CommercialPage() {
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-primary/10 to-transparent">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
-              <p className="text-primary font-semibold mb-2">COMMERCIAL INTERIORS</p>
-              <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">Shaping Professional Spaces<br />That Inspire Productivity and Brand Identity</h1>
-              <p className="text-xl text-muted-foreground mb-6">Best Commercial Interior Designers in Bangalore</p>
+              <p className="text-primary font-semibold mb-2">CONSTRUCTIONS</p>
+              <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">Building Foundations<br />For Your Vision with Precision and Integrity</h1>
+              <p className="text-xl text-muted-foreground mb-6">Best Construction Company in Bangalore</p>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8">
-                At SmartJ2K Interiors, we understand that commercial spaces do more than house work—they create environments that reflect your brand, culture, and values. Our commercial interior design services focus on optimizing your workspace for efficiency, collaboration, and employee wellbeing, while creating a striking aesthetic that resonates with your clients and visitors.
+                At SmartJ2K Interiors, construction is the backbone of everything we do. Our construction services combine technical expertise, quality materials, and project management excellence to bring architectural designs to life. From residential homes to commercial complexes, our skilled teams oversee every phase of construction with meticulous attention to detail.
               </p>
               <Link
                 href="/contact"
@@ -74,8 +74,8 @@ export default function CommercialPage() {
         {/* Expertise Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl font-bold text-foreground mb-4 text-center">Our Commercial Interior Expertise Includes</h2>
-            <p className="text-center text-muted-foreground mb-12">We carefully select materials, lighting, furniture, and technology integrations that enhance functionality without compromising style.</p>
+            <h2 className="text-4xl font-bold text-foreground mb-4 text-center">Our Construction Expertise Includes</h2>
+            <p className="text-center text-muted-foreground mb-12">Safety, transparency, and communication are core to our approach. We employ cutting-edge technology and sustainable building practices.</p>
             <div className="grid md:grid-cols-3 gap-6">
               {expertise.map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
@@ -92,12 +92,12 @@ export default function CommercialPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-4xl font-bold text-foreground mb-6">Transforming Workspaces Into Productive Experiences</h2>
+                <h2 className="text-4xl font-bold text-foreground mb-6">Turning Blueprints Into Reality, Seamlessly</h2>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  We know the impact a well-designed commercial space can have on productivity and morale. Whether you're launching a new office or upgrading existing premises, our expert team is dedicated to delivering spaces that inspire creativity and efficiency, while reflecting your brand identity seamlessly.
+                  Whether you're breaking ground on a new project or need an expert construction partner for your ongoing developments, SmartJ2K Interiors is committed to excellence. Our project managers ensure smooth coordination across all trades, constant quality checks, and timely delivery.
                 </p>
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                  We combine modern design trends with practical solutions, ensuring your commercial space is adaptable and future-ready.
+                  Our transparent communication keeps you informed at every stage, with no compromises on quality or safety standards.
                 </p>
                 <Link
                   href="/contact"
@@ -107,7 +107,7 @@ export default function CommercialPage() {
                 </Link>
               </div>
               <div className="bg-linear-to-br from-primary/20 to-primary/5 rounded-2xl border border-primary/20 h-96 flex items-center justify-center">
-                <img src="/logo.png" alt="Commercial Design" className="w-2/3 h-auto opacity-80" />
+                <img src="/logo.png" alt="Construction Services" className="w-2/3 h-auto opacity-80" />
               </div>
             </div>
           </div>
@@ -116,8 +116,8 @@ export default function CommercialPage() {
         {/* Services Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl font-bold text-foreground mb-4 text-center">We Provide End-to-End Commercial Interior Design</h2>
-            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">From collaborative work zones to sleek conference rooms and inviting client lounges, we create professional environments that inspire productivity and leave lasting impressions.</p>
+            <h2 className="text-4xl font-bold text-foreground mb-4 text-center">We Provide End-to-End Construction Services</h2>
+            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">From solid foundations to flawless finishes and everything in between, we build with precision, strength, and care to bring your vision to life.</p>
             <div className="grid md:grid-cols-2 gap-8">
               {features.map((feature, index) => (
                 <div key={index} className="flex gap-4">
@@ -151,9 +151,9 @@ export default function CommercialPage() {
             <div className="max-w-3xl mx-auto">
               <div className="bg-background border border-border rounded-xl p-8">
                 <p className="text-muted-foreground mb-6 leading-relaxed italic text-lg">
-                  "WFG Infratech transformed our outdated office into a modern, efficient workspace that truly reflects our brand values. The project was seamless, and the team kept us informed every step of the way."
+                  "SmartJ2K Interiors's construction team delivered our residential project with outstanding quality and professionalism. Their attention to detail and commitment to deadlines was impressive."
                 </p>
-                <p className="text-foreground font-semibold">Corporate Client - Bangalore</p>
+                <p className="text-foreground font-semibold">Homeowner - Bangalore</p>
               </div>
             </div>
           </div>
@@ -162,9 +162,9 @@ export default function CommercialPage() {
         {/* CTA Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Ready to Transform Your Commercial Space?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Ready to Start Your Construction Project?</h2>
             <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
-              Let's work together to create a professional environment that inspires productivity and reflects your brand perfectly.
+              Let's build something exceptional together with quality, safety, and excellence.
             </p>
             <Link
               href="/contact"

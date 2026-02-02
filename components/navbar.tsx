@@ -9,7 +9,10 @@ export function Navbar() {
 
   const services = [
     { name: 'Residential', href: '/services/residential' },
-    { name: 'Commercial', href: '/services/commercial' },
+    { name: 'Commercial Interiors', href: '/services/commercial' },
+    { name: 'Architecture', href: '/services/architecture' },
+    { name: 'Construction', href: '/services/construction' },
+    { name: "Sales", href: "/services/sales" },
     { name: 'Hospitality', href: '/services/hospitality' },
     { name: 'Healthcare', href: '/services/healthcare' },
     { name: 'Retail', href: '/services/retail' },

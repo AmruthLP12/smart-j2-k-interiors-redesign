@@ -88,8 +88,8 @@ export function Footer() {
                 <span className="text-muted-foreground text-sm">SmartJ2Kinteriors@gmail.com</span>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="text-primary mt-1" size={16} />
-                <span className="text-muted-foreground text-sm">New Delhi, India</span>
+                <MapPin className="text-primary mt-1" size={50} />
+                <span className="text-muted-foreground text-sm">Ground Floor, Gopallapa Complex, Ajjagondahalli Road,Valepura, Beside ISKCON Whitefield, Bangalore - 560087</span>
               </li>
             </ul>
           </div>
