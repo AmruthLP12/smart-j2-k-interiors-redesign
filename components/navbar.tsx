@@ -13,10 +13,6 @@ export function Navbar() {
     { name: 'Architecture', href: '/services/architecture' },
     { name: 'Construction', href: '/services/construction' },
     { name: "Sales", href: "/services/sales" },
-    { name: 'Hospitality', href: '/services/hospitality' },
-    { name: 'Healthcare', href: '/services/healthcare' },
-    { name: 'Retail', href: '/services/retail' },
-    { name: 'Educational', href: '/services/educational' },
   ];
 
   return (
