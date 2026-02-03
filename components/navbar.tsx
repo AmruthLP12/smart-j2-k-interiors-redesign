@@ -45,6 +45,9 @@ export function Navbar() {
                 ))}
               </div>
             </div>
+            <Link href="/property-sales" className="text-foreground hover:text-primary transition">
+              Property Sales
+              </Link>
             <Link href="/about" className="text-foreground hover:text-primary transition">
               About
             </Link>
